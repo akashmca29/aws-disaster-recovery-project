@@ -47,7 +47,27 @@ The system ensures data backup, failover capability, and high availability acros
 - High Availability
 
 ---
-
+## Folder Structure
+aws-disaster-recovery-project/
+│
+├── README.md
+├── architecture-diagram.png
+├── screenshots/
+│   ├── ec2.png
+│   ├── rds.png
+│   ├── s3-backup.png
+│   ├── aws-backup.png
+│   ├── route53-failover.png
+│   ├── cloudwatch.png
+│   └── sns.png
+├── backup-policy/
+│   └── backup-plan.md
+├── failover-steps.md
+├── deployment-steps.md
+├── interview-questions.md
+├── resume-points.md
+└── cost-estimation.md
+---
 ## Disaster Recovery Strategy
 
 - Backup Frequency: Daily
